@@ -9,7 +9,7 @@
 https://data.gov.ru/opendata/7705851331-statvpofull-time
 
 #### Лицензия:  
-Типовые условия использования открытых данных 
+Типовые условия использования открытых данных   
 https://data.gov.ru/information-usage
 
 #### Даты 
