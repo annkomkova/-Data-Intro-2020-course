@@ -1,0 +1,44 @@
+int value = #FFE4E1;
+
+void setup() {
+  size(500, 400);
+  background(100, 149, 237);
+}
+
+void draw() {
+    stroke(100, 149, 237);
+    fill(248, 248, 255);
+    rect(100, 200, 20, 240);
+
+    stroke(100, 149, 237);
+    fill(248, 248, 255);
+    rect(330, 200, 20, 240);
+
+    stroke(100, 149, 237);
+    fill(248, 248, 255);
+    rect(150, 200, 20, 240);
+
+    stroke(100, 149, 237);
+    fill(248, 248, 255);
+    rect(380, 200, 20, 240);
+
+    stroke(100, 149, 237);
+    fill(248, 248, 255);
+    ellipse(250, 200, 300, 150);
+
+    stroke(100, 149, 237);
+    fill(248, 248, 255);
+    ellipse(100, 150, 100, 100);
+
+    stroke(100, 149, 237);
+    fill(value);
+    ellipse(60, 100, 80, 20);
+}
+
+void mouseClicked() {
+  if (value == #FFE4E1) {
+    value = #DDA0DD;
+  } else {
+    value = #FFE4E1;
+  }
+}
